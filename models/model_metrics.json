@@ -1,0 +1,31 @@
+{
+  "model_name": "GradientBoosting_ESP_v1.0",
+  "evaluation_metrics": {
+    "roc_auc": 0.9771,
+    "f1_score": 0.4041,
+    "precision": 0.8298,
+    "recall": 0.2671
+  },
+  "top_features": [
+    [
+      "temp_delta_6h",
+      0.9209
+    ],
+    [
+      "vib_rolling_std_6h",
+      0.0269
+    ],
+    [
+      "vib_delta_6h",
+      0.0218
+    ],
+    [
+      "vibration_rms_mms",
+      0.0102
+    ],
+    [
+      "press_ratio",
+      0.0048
+    ]
+  ]
+}

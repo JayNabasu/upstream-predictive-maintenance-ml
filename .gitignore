@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.venv/
+.pytest_cache/
+*.log
+
+# Data & Models (large binary checkpoints)
+data/raw/*.csv
+data/processed/*.parquet
+models/checkpoints/
+
+# Operating System & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
