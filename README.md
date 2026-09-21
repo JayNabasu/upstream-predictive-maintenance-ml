@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Author](https://img.shields.io/badge/Author-Jerry%20A.%20Nabasu-blue.svg)](https://github.com/JayNabasu)
 
-An industrial machine learning pipeline and real-time inference microservice predicting Electrical Submersible Pump (ESP) and compressor degradation across upstream energy assets (**OML 20, 28, 38, 49, 116**). It forecasts equipment failure within a 72-hour operational window, mitigating unplanned shut-ins and multi-million dollar workover intervention costs.
+An industrial machine learning pipeline and real-time inference microservice predicting Electrical Submersible Pump (ESP) and compressor degradation across diversified upstream energy assets (offshore, swamp, and onshore operating facilities). It forecasts equipment failure within a 72-hour operational window, mitigating unplanned shut-ins and multi-million dollar workover intervention costs.
 
 ---
 

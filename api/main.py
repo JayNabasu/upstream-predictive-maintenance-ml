@@ -20,11 +20,11 @@ METRICS_PATH = BASE_DIR / "models" / "model_metrics.json"
 app = FastAPI(
     title="Upstream ESP Predictive Maintenance API",
     version="1.0.0",
-    description="Machine learning inference API predicting electrical submersible pump failures and degradation states across OML assets."
+    description="Machine learning inference API predicting electrical submersible pump failures and degradation states across upstream production assets."
 )
 
 class TelemetryInput(BaseModel):
-    well_id: str = Field(..., json_schema_extra={"example": "OML-119-ESP-03"})
+    well_id: str = Field(..., json_schema_extra={"example": "PRD-WELL-ESP-03"})
     intake_pressure_psi: float = Field(..., json_schema_extra={"example": 890.5})
     discharge_pressure_psi: float = Field(..., json_schema_extra={"example": 2980.2})
     motor_temperature_c: float = Field(..., json_schema_extra={"example": 104.2})
